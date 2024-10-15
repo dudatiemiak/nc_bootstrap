@@ -14,10 +14,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- menu de navegação -->
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand text-light fs-3" href="#">Oitenta e Nove</a>
+          <!-- navbar-toggler: ativa ou desativa a visualização do menu-sanduíche -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- navbar-toggler-icon: classe para inserir o ícone do menu-sanduíche -->
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <!-- nav-item: define as opções existentes no menu (tem que estar na tag li) -->
+                  <li class="nav-item">
+                      <a class="nav-link text-light" aria-current="page" href="#">Tecnologias</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Carreiras</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Cases</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Login</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
     <div class="container-fluid bg-warning text-light p-5">
       <h1>Usando containers</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum eius, fugit omnis autem provident ratione perferendis fugiat ut natus, voluptatem laboriosam eos eaque nisi molestias quasi fuga voluptate! Corrupti tempore animi ratione saepe! Iste neque accusamus veniam, repellat ad placeat perferendis eos voluptatem a possimus. Dolorum omnis nam expedita quod numquam necessitatibus. Ullam, facilis velit est veritatis alias beatae. Aspernatur quam adipisci error. Quaerat nisi tenetur at sequi, perspiciatis quibusdam explicabo, necessitatibus reprehenderit quisquam assumenda esse officiis odit voluptas a voluptates saepe quia? Obcaecati voluptates a laborum aperiam voluptatum eum, laboriosam dolorum velit amet. Porro dolorem fugiat error animi.</p>
-      <a href="">Mais informações</a>
+      <!-- botão dropdown -->
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" 
+        id="meudropdown" data-bs-toggle="dropdown">Menu Dropdown
+        </button>
+        <!-- lista html -->
+        <ul class="dropdown-menu">
+            <!-- cada opção -->
+            <li><a class="dropdown-item" href="#">Opção 
+               1</a></li>
+            <li><a class="dropdown-item" href="#">Opção 
+               2</a></li>
+            <li><a class="dropdown-item" href="#">Opção 
+               3</a></li>
+        </ul>
+    </div>
     </div>
 
     <div class="container">
@@ -64,6 +114,7 @@
         <!-- <h1 class="display-1">Meu projeto web</h1> -->
         <h1 class="my-font text-end">Meu Projeto Web</h1>
         <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit animi ratione voluptatum distinctio reprehenderit maxime vero totam voluptatem mollitia eaque. Sint temporibus eius non! Iusto excepturi quos consequatur pariatur recusandae repudiandae optio libero quisquam aliquid quia veritatis, dolore quas saepe voluptates deleniti nobis nulla ratione iure aliquam eum unde tempore!</p>
+        <button type="button" class="btn btn-info text-light btn-lg">Clique aqui</button>
       </div>
 
       <div class= "row my-3">
