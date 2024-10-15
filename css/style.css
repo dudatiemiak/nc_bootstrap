@@ -3,3 +3,6 @@
     background-color: var(--bs-pink);
 }
 
+.my-font{
+    font-family: "Poppins", sans-serif;
+}
